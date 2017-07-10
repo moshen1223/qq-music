@@ -90,7 +90,6 @@ export default {
         zIndex = 10
       } else {
         blur = Math.min(20 * percent, 20)
-        console.log(blur)
       }
       this.$refs.filter.style[backdrop] = `blur(${blur}px)`
       if (newY < this.minTranslateY) {
