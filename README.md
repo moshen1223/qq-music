@@ -8,7 +8,9 @@ cd qq-music
 
 npm/cnpm install
 
-npm run dev
+npm run dev   
+
+打包后运行：node prod.server.js
 
 #### 开发进度
 推荐    
